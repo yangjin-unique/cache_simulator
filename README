@@ -1,15 +1,18 @@
-Compile your code:
+#Cache Simulator
+This is a simple cache simulator to measure the performance of a program by by counting
+miss/hit/eviction times towards trace files produced by **valgrind**. The cache algorithm is LRU-based.
+
+##Basic Knowledge about Cache
+In general, cache organisation can be denoted simply as: (S, E, B), when E equals to 1, that is
+**direct mapped cache**, otherwise, we call **E-way set associative cache**. Fig below shows the
+organisation of cache.
+![cache_org](https://github.com/yangjin-unique/cache_simulator/fig/cache.jpg)
+
+##Usage
+*Compile:
     linux> make
 
-Check the correctness of your simulator:
-    linux> ./test-csim
-
-Check the correctness and performance of your transpose functions:
-    linux> ./test-trans -M 32 -N 32
-    linux> ./test-trans -M 64 -N 64
-    linux> ./test-trans -M 61 -N 67
-
-Check everything at once (this is the program that your instructor runs):
+*Run:
     linux> ./driver.py    
 
 ******
