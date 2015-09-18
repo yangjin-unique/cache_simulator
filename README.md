@@ -6,7 +6,12 @@ miss/hit/eviction times towards trace files produced by **valgrind**. The cache 
 In general, cache organisation can be denoted simply as: (S, E, B), when E equals to 1, that is
 **direct mapped cache**, otherwise, we call **E-way set associative cache**. Fig below shows the
 organisation of cache.
-![cache_org](https://github.com/yangjin-unique/cache_simulator/fig/cache.jpg)
+
+![cache_org](https://github.com/yangjin-unique/cache_simulator/blob/master/fig/cache.jpg)
+
+
+
+
 
 ##Usage
 *Compile:
