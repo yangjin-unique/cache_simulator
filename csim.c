@@ -80,6 +80,7 @@ void
 usage(void)
 {
 	printf("Usage: ./csim -s 2 -E 2 -b 3 -t traces/dave.trace -v \n");
+	exit(0);
 }
 
 
